@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  private imageUrl = 'https://api.adorable.io/avatars/500/200@adorable.io.png';
 }
