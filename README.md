@@ -7,7 +7,7 @@ Vamos a crear una función que nos retorne el numero aleatorio para la ruta, la 
 this.imageUrl = `${this.baseUrl}300${this.urlSuffix}`
 ```
 Tu tarea es cambiar el 300 por una función que genere un número aleatorio
-
+Observa que creamos una nueva varible llamada imageUrl en la cual vamos a concatenar la ruta completa de la imagen
 link a a la siguiente rama.
 
 
