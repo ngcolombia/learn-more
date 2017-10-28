@@ -1,29 +1,15 @@
-Explicar api de imagenes
 
-Vamos a reemplazar el contenido del app.component.html por la etiqueta que va a contener nuestra imagen
+Vamos a crear una variable llamada 'imageUrl' en el archivo app.component.ts y le vamos a asignar la ruta que tenemos en el atributo src de la imagen
+
+```js
+private imageUrl = 'https://api.adorable.io/avatars/500/';
+``` 
+
+El atributo src de la imagen lo cambiaremos por el property binding [src] y le asignaremos la variable que acabamos de crear
+
 ```html
-<img class="random-face" src="https://api.adorable.io/avatars/500/300@adorable.io.png">
+<img class="random-face" [src]="imageUrl" alt="">
 ```
-
-Agregaremos un poco de estilo a nuestra imagen con la clase "random-face", para esto, añadimos al archivo app.component.css las siguientes lineas
-```css
-.random-face {
-  height: 90vh;
-  margin: 1rem;
-  border-radius: 50%;
-}
-```
-
-El archivo styles.css contiene los estilos globales de nuestra app, le vamos a añadir las siguientes lineas 
-```css
-body {
-  background-color: black;
-  margin: 0;
-  text-align: center;
-}
-```
-
-Ahora puedes ir a tu navegador y ver el resultado :)
 
 link a a la siguiente rama.
 
