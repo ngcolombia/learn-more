@@ -1,27 +1,28 @@
-# LearnBinding
+# Aprendamos Binding en Angular :hatching_chick:
+ 
+ ## 1. Instala las herramientas necesarias :hammer: 
+ - Utiliza la última versión de [Node](https://nodejs.org/en/) asegúrate de usar la versión `6.9.0` o mayor.
+- Instala NPM (generalmente viene con Node, así que no te preocupes) 😙
+- Instala Angular CLI globalmente:
+	- `$ npm install @angular/cli -g`
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.9.
+## 2. Verifica :clipboard:
+Asegúrate que la instalación resultó bien ejecutando los siguientes comandos:
 
-## Development server
+- `$ node -v` -> Version 6.9.0 or above
+- `$ npm -v` -> Version 3.0.0 or above
+- `$ ng -v`-> Version 1.0.0 or above
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## 3. Eso es todo! Creemos una aplicación :muscle:
 
-## Code scaffolding
+- Crea una nueva aplicación con este comando: 
+	- `$ ng new myProject` (debería tomar un par de minutos) :clock130:
+- Entra en la carpeta:
+	- `$ cd myProject`
+- Abre tu aplicación en el navegador así: 
+	- `$ ng serve -o`
+- Si ves: "App Works", **entonces has terminado!** :tada: :tada: :tada:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### :white_check_mark: ¿Todo en orden?
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Ahora puedes ir al [Branch #1](https://github.com/angular-medellin/learn-more/tree/1)
