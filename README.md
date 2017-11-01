@@ -29,6 +29,7 @@ body {
 
 Ahora puedes ir a tu navegador y ver el resultado :tada: :tada: :tada:
 
+![Demo](./demo.png)
 
 
 ## Ahora puedes ir al [Branch #2](https://github.com/angular-medellin/learn-more/tree/2)
