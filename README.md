@@ -1,6 +1,6 @@
 # Aprendamos Binding en Angular :hatching_chick:
 
-## 6 Mi primer Binding :heart_eyes:
+## 6. Mi primer Binding :heart_eyes:
 - En el controlador de nuestro AppComponent vamos a crear una variable llamada 'imageUrl' y le vamos a asignar el valor que tenemos en el atributo src de la imagen.
 
 - El atributo src de la imagen lo cambiaremos por el property binding [src] y le asignaremos la variable que acabamos de crear.
