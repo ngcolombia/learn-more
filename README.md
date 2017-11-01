@@ -1,11 +1,13 @@
-Explicar api de imagenes
+# Aprendamos Binding en Angular :hatching_chick:
 
-Vamos a reemplazar el contenido del app.component.html por la etiqueta que va a contener nuestra imagen
-```html
-<img class="random-face" src="https://api.adorable.io/avatars/500/300@adorable.io.png">
-```
+## 4. Agreguemos una nueva imagen :camera:
+- Borra el contenido del archivo app.component.html y en su lugar crea una etiqueta `<img>` que obtenga la imagen de la siguiente ruta: https://api.adorable.io/avatars/500/300@adorable.io.png
+ 
+[Adorable Faces](http://avatars.adorable.io/) es un API que nos provee tiernas imagenes para usar como placeholder. La ruta de la imagen se forma de la siguiente forma:
+[https://api.adorable.io/avatars/Tamaño_de_la_imagen/numero_de_la_imagen@adorable.io.png](https://api.adorable.io/avatars/500/300@adorable.io.png)
 
-Agregaremos un poco de estilo a nuestra imagen con la clase "random-face", para esto, añadimos al archivo app.component.css las siguientes lineas
+## 5. Ahora, un poco de estilo :nail_care:
+- En el archivo app.component.css agregaremos la clase '.random-face'
 ```css
 .random-face {
   height: 90vh;
@@ -14,7 +16,9 @@ Agregaremos un poco de estilo a nuestra imagen con la clase "random-face", para 
 }
 ```
 
-El archivo styles.css contiene los estilos globales de nuestra app, le vamos a añadir las siguientes lineas 
+- Para aplicarle el estilo a nuestra imagen, agregaremos la clase '.random-face' a la etiqueta `<img>` creada anteriormente
+
+- El archivo styles.css contiene los estilos globales de nuestra app, a este le vamos a añadir las siguientes lineas 
 ```css
 body {
   background-color: black;
@@ -23,8 +27,10 @@ body {
 }
 ```
 
-Ahora puedes ir a tu navegador y ver el resultado :)
+Ahora puedes ir a tu navegador y ver el resultado :tada: :tada: :tada:
 
-link a a la siguiente rama.
+
+
+## Ahora puedes ir al [Branch #2](https://github.com/angular-medellin/learn-more/tree/2)
 
 
