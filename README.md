@@ -1,16 +1,10 @@
+# Aprendamos Binding en Angular :hatching_chick:
 
-Vamos a crear una variable llamada 'imageUrl' en el archivo app.component.ts y le vamos a asignar la ruta que tenemos en el atributo src de la imagen
+## 6 Mi primer Binding :heart_eyes:
+- En el controlador de nuestro AppComponent vamos a crear una variable llamada 'imageUrl' y le vamos a asignar el valor que tenemos en el atributo src de la imagen.
 
-```js
-private imageUrl = 'https://api.adorable.io/avatars/500/';
-``` 
+- El atributo src de la imagen lo cambiaremos por el property binding [src] y le asignaremos la variable que acabamos de crear.
 
-El atributo src de la imagen lo cambiaremos por el property binding [src] y le asignaremos la variable que acabamos de crear
+Verifica en tu navegador, nada debe haber cambiado :wink:
 
-```html
-<img class="random-face" [src]="imageUrl" alt="">
-```
-
-link a a la siguiente rama.
-
-
+## Ahora puedes ir al [Branch #3](https://github.com/angular-medellin/learn-more/tree/3)
