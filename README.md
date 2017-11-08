@@ -7,7 +7,7 @@
 [https://api.adorable.io/avatars/Tamaño_de_la_imagen/numero_de_la_imagen@adorable.io.png](https://api.adorable.io/avatars/500/300@adorable.io.png)
 
 ## 5. Ahora, un poco de estilo :nail_care:
-- En el archivo app.component.css agregaremos los estilos para la clase '.random-face' de la siguiente forma:
+- En el archivo app.component.css agregaremos los estilos para la clase 'random-face' de la siguiente forma:
 ```css
 .random-face {
   height: 90vh;
