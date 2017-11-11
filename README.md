@@ -11,7 +11,7 @@ Para formar urls diferentes cada que necesitemos una nueva imagen, vamos a divid
 Ahora, vamos a crear una función que retorne la ruta completa de la imagen.
 ```ts
   generateRandomFace() {
-    this.imageUrl = `${this.baseUrl}$300${this.urlSuffix}`
+    this.imageUrl = `${this.baseUrl}300${this.urlSuffix}`
   }
 ```
 
